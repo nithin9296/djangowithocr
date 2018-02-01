@@ -1,0 +1,14 @@
+{% extends "prelim_analysis.html" %}
+
+{% block content %}
+
+<h1>Delete trialbalance2017</h1>
+
+<p>Are you sure you want to delete the author: {{ trialbalance2017 }}?</p>
+
+<form action="" method="POST">
+  {% csrf_token %}
+  <input type="submit" action="" value="Yes, delete." />
+</form>
+
+{% endblock %}

@@ -1,0 +1,2 @@
+"# django-with-ocr" 
+"# djangowithocr" 

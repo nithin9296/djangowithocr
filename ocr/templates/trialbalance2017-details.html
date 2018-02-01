@@ -1,0 +1,45 @@
+
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <title>Key Ratios</title>
+  </head>
+  <body>
+    
+    {% if current_assets %}
+    <ul>
+    {% for obj in current_assets %}
+        <li><a href="{{% url 'trialbalance2017_list' %}}">{{ obj }}</a></li>   
+    </ul>
+    {% endfor %}
+    
+    
+    
+    
+
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
