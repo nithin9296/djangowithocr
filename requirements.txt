@@ -26,7 +26,7 @@ Quandl==3.3.0
 requests==2.18.4
 sh==1.12.14
 six==1.11.0
-urllib3==1.21.1
+urllib3==1.24.2
 virtualenv==15.1.0
 dj-database-url
 django-excel
